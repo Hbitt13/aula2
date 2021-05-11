@@ -4,16 +4,24 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+
   },
   "repository": {
+
     "type": "git",
+
     "url": "git+https://github.com/Hbitt13/aula2.git"
   },
-  "author": "",
+
+  "author": "Bruna Heitor",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hbitt13/aula2/issues"
-  },
-  "homepage": "https://github.com/Hbitt13/aula2#readme"
+  "homepage": "https://github.com/Hbitt13/aula2#readme",
+  "devDependencies": {
+    
+    "lite-server": "^2.2.2"
+  }
 }
